@@ -1,0 +1,17 @@
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.csprojAssemblyReference.cache
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\App.g.cs
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER_MarkupCompile.cache
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER_MarkupCompile.lref
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\bin\Debug\QuizWHAYNER.exe.config
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\bin\Debug\QuizWHAYNER.exe
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\bin\Debug\QuizWHAYNER.pdb
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.g.resources
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.Properties.Resources.resources
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.csproj.GenerateResource.cache
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.csproj.CoreCompileInputs.cache
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.exe
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\QuizWHAYNER.pdb
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\mainwindow.g.cs
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\mainwindow.baml
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Home.g.cs
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Home.baml
