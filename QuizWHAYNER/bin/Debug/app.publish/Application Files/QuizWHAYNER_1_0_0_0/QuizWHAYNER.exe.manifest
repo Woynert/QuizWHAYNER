@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QuizWHAYNER.exe" version="1.0.0.0" publicKeyToken="3fb2279d6bcc4ec5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QuizWHAYNER" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QuizWHAYNER.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuizWHAYNER.exe" size="408040">
+      <assemblyIdentity name="QuizWHAYNER" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>p9aM24TOAOd6AjsG/KW0D5rDLmwP7aWwDffBkcRG/40=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ico.ico" size="107183">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/sx0AdZex1k6JUOde7Nae1tQimeWi7dDjA9CTelQUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuizWHAYNER.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WoynertGTX\Woynert" issuerKeyHash="15405c62d12726acd580a6da89bca2d7be567da1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>V8PBF58LKom7IgibT+W9VUJgQlepPGVWrWsUhdpuM7c=</DigestValue></Reference></SignedInfo><SignatureValue>GKiBz7nTtEjS7LzvW4u3903G5qQ6rMvLip6sIK3tpQx1I7HUYtQ64FiANETEYyUcsCwAT8HiFGxu8GklurIjEgcCcX/wgu+wn2gZZLdPktHDsPLwwivr+pQu59n2An+A/AJ2eOmaZyx+nMB7HXzJGWriIrdih+2sQQzP1bNJjxc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s9BsOVmeujOVkqCJa/GGgBwmrqbN/TzV7jEKvUrhbLydyB+kLlZzEkDlkwqwXG+46qMyFgZPjEDjD5qWb8aZbsHJLRcIzMzXaenln5Tkz+/TM/5WYVMfpF5c7M+0nQvW8UY1xUn7gi8dXgaOf8AGcT42aaYljcqwyY1lSTYxyn8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b7336eda85146bad56653ca95742604255bde54f9b0822bb892a0b9f17c1c357" Description="" Url=""><as:assemblyIdentity name="QuizWHAYNER.exe" version="1.0.0.0" publicKeyToken="3fb2279d6bcc4ec5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WoynertGTX\Woynert</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/UlvPcaFcJabZxvgz629/qAOw9VyZ8//qIKMpV5vfRY=</DigestValue></Reference></SignedInfo><SignatureValue>Zh8D7UQnrj1AocOVpnKnFeh0mnJl+kF7jAwSXqT64Rey/asrHfRR2FOMPRlcUci8JDl2WLYLYkpedlgpoffhXwSn4Dcxc/Vh8+CXd3XEq1xXklBiSk8E4jGbihoOXUjbx2+QwVrZXwOECISZeDGCcHfHvn60TZJvHwLWAfxbViA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s9BsOVmeujOVkqCJa/GGgBwmrqbN/TzV7jEKvUrhbLydyB+kLlZzEkDlkwqwXG+46qMyFgZPjEDjD5qWb8aZbsHJLRcIzMzXaenln5Tkz+/TM/5WYVMfpF5c7M+0nQvW8UY1xUn7gi8dXgaOf8AGcT42aaYljcqwyY1lSTYxyn8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQQAXXuQB+OZRGxDx+A410uDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAVwBvAHkAbgBlAHIAdABHAFQAWABcAFcAbwB5AG4AZQByAHQwHhcNMjAwODMwMTY0MTA5WhcNMjEwODMwMjI0MTA5WjAvMS0wKwYDVQQDHiQAVwBvAHkAbgBlAHIAdABHAFQAWABcAFcAbwB5AG4AZQByAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALPQbDlZnrozlZKgiWvxhoAcJq6mzf081e4xCr1K4Wy8ncgfpC5WcxJA5ZMKsFxvuOqjMhYGT4xA4w+alm/GmW7ByS0XCMzM12np5Z+U5M/v0zP+VmFTH6ReXOzPtJ0L1vFGNcVJ+4IvHV4Gjn/ABnE+NmmmJY3KsMmNZUk2Mcp/AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQWsdPW58i1EBMH+bxEXdTk965UuhUhLZdtu9gf4XkNqTd3j6dCXLNWBmVHPkGDaGkRInJn7FbfPfZFILrxpO/5qz6iZFBz9h7TWFRtnMSiVS+XXtnEnEDY9COAmy65Qlnk250CguijyazpOz1WadlKQ7QF60XnLOgjym96YB0Wc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
