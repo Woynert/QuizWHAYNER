@@ -20,31 +20,21 @@ namespace QuizWHAYNER
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
-
-            //Label invisible
-            lblWrong.Visibility = Visibility.Hidden;
+            frameMain.Content = new Page1();
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUser.Text == "Admin" && txtPass.Password == "123")
-            {
-                MessageBox.Show("Hey");
-                lblWrong.Visibility = Visibility.Hidden;
-            }
-            else if (txtUser.Text == "" || txtPass.Password == "")
-            {
-                lblWrong.Content = "Por favor, ingrese sus credenciales";
-                lblWrong.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                lblWrong.Content = "Usuario o contraseña incorrectos";
-                lblWrong.Visibility = Visibility.Visible;
-            }
+
+        }
+
+        private void txtUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

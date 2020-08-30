@@ -15,3 +15,5 @@ C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\
 C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\mainwindow.baml
 C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Home.g.cs
 C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Home.baml
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Page1.g.cs
+C:\Users\Woynert\Documents\GitHub\QuizWHAYNER\QuizWHAYNER\QuizWHAYNER\obj\Debug\Page1.baml
