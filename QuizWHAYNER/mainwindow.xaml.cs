@@ -18,13 +18,17 @@ namespace QuizWHAYNER
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
+
     public partial class MainWindow : Window
     {
-
+        public Page1 P1 = new Page1();
+        public Home P2 = new Home();
         public MainWindow()
         {
             InitializeComponent();
-            frameMain.Content = new Page1();
+            
+            frameMain.Content = P1;// new Page1();
+            
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)

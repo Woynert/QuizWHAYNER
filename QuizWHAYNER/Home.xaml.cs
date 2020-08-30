@@ -94,42 +94,58 @@ namespace QuizWHAYNER
         {
             bool duplicado = false;
 
-            if (txtNombre.Text.Replace(" ", "") != ""){ //con nombre
-                if (lbxPersonajes.Items.Count > 0)
-                {
-                    for (int i = 0; i < lbxPersonajes.Items.Count; i++)
+            if (lbxPersonajes.Items.Count < 10) { 
+                if (txtNombre.Text.Replace(" ", "") != "")
+                { //con nombre
+                    if (lbxPersonajes.Items.Count > 0)
                     {
-                        if (txtNombre.Text == lbxPersonajes.Items[i].ToString())
+                        for (int i = 0; i < lbxPersonajes.Items.Count; i++)
                         {
-                            //MessageBox.Show(lbxPersonajes.Items[i].ToString());
-                            duplicado = true;
+                            if (txtNombre.Text == lbxPersonajes.Items[i].ToString())
+                            {
+                                duplicado = true;
+                            }
                         }
                     }
-                }
 
-                if (duplicado) {
-                    lblAlertName.Content = "Nombre ya existente";
+                    if (duplicado)
+                    {
+                        lblAlertName.Content = "Nombre ya existente";
+                        lblAlertName.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+                        Pnj[lbxPersonajes.Items.Count, 0] = cbxEspecie.SelectedIndex;
+                        Pnj[lbxPersonajes.Items.Count, 1] = cbxClase.SelectedIndex;
+                        Pnj[lbxPersonajes.Items.Count, 2] = Convert.ToInt32(sldFuerza.Value);
+                        Pnj[lbxPersonajes.Items.Count, 3] = Convert.ToInt32(sldAgilidad.Value);
+                        Pnj[lbxPersonajes.Items.Count, 4] = Convert.ToInt32(sldPercepcion.Value);
+                        Pnj[lbxPersonajes.Items.Count, 5] = Convert.ToInt32(sldDefensa.Value);
+                        lbxPersonajes.Items.Add(txtNombre.Text);
+
+                        lblPnjLimit.Content = lbxPersonajes.Items.Count + " / 10";
+
+                        //reset
+                        lblAlertName.Visibility = Visibility.Hidden;
+                        lbxPersonajes.SelectedIndex = lbxPersonajes.Items.Count - 1;
+                        cbxEspecie.SelectedIndex = 0;
+                        cbxClase.SelectedIndex = 0;
+                        sldFuerza.Value = 0;
+                        sldAgilidad.Value = 0;
+                        sldPercepcion.Value = 0;
+                        sldDefensa.Value = 0;
+                        txtNombre.Text = "";
+                    }
+                }
+                else //sin nombre
+                {
+                    lblAlertName.Content = "Falta el Nombre";
                     lblAlertName.Visibility = Visibility.Visible;
                 }
-                else
-                {
-                    Pnj[lbxPersonajes.Items.Count, 0] = cbxEspecie.SelectedIndex;
-                    Pnj[lbxPersonajes.Items.Count, 1] = cbxClase.SelectedIndex;
-                    Pnj[lbxPersonajes.Items.Count, 2] = Convert.ToInt32(sldFuerza.Value);
-                    Pnj[lbxPersonajes.Items.Count, 3] = Convert.ToInt32(sldAgilidad.Value);
-                    Pnj[lbxPersonajes.Items.Count, 4] = Convert.ToInt32(sldPercepcion.Value);
-                    Pnj[lbxPersonajes.Items.Count, 5] = Convert.ToInt32(sldDefensa.Value);
-                    lbxPersonajes.Items.Add(txtNombre.Text);
-
-                    lblPnjLimit.Content = lbxPersonajes.Items.Count + " / 10";
-
-                    lblAlertName.Visibility = Visibility.Hidden;
-                    lbxPersonajes.SelectedIndex = lbxPersonajes.Items.Count - 1;
-                }
             }
-            else //sin nombre
+            else //sin espacio
             {
-                lblAlertName.Content = "Falta el Nombre";
+                lblAlertName.Content = "Has alcanzado el limite"; 
                 lblAlertName.Visibility = Visibility.Visible;
             }
         }
@@ -137,12 +153,9 @@ namespace QuizWHAYNER
         private void lblLogOut_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             MainWindow w = (MainWindow) Window.GetWindow(this);
-            //w.frameMain.NavigationService.AddBackEntry(new MainWindow());
-            //MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.frameMain.Content = new Page1();
-            //w.frameMain.GoBack();
-            //MessageBox.Show("Buenos dias");
-            
+
+            w.frameMain.Content = w.P1;// new Page1();
+
         }
     }
 }

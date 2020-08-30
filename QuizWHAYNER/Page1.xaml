@@ -10,13 +10,173 @@
 
     <Grid Background="White" Width="792" Height="460">
         <Label Content="Iniciar Sesión" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="792" Height="50" FontSize="30" Background="#FF5D6B99" Foreground="White"/>
-        <Label Content="Usuario o correo electronico:" HorizontalAlignment="Center" Margin="0,113,0,0" VerticalAlignment="Top" Width="316" FontSize="16"/>
-        <Label Content="Contraseña:" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="316" FontSize="16"/>
-        <TextBox x:Name="txtUser" HorizontalAlignment="Center" Height="31" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Text="admin" FontSize="16"/>
-        <Label x:Name="lblWrong" Content="Usuario o contraseña incorrectos" HorizontalAlignment="Left" Margin="279,257,0,0" VerticalAlignment="Top" Background="White" Foreground="Red" FontSize="16"/>
-        <Button x:Name="btnLogin" Content="Ingresar" HorizontalAlignment="Left" Margin="342,293,0,0" VerticalAlignment="Top" Width="111" Click="btnLogin_Click" FontSize="16" Background="#FFF2F5FC"/>
-        <PasswordBox x:Name="txtPass" HorizontalAlignment="Center" Margin="0,211,0,0" VerticalAlignment="Top" Width="316" Password="123" FontSize="16" Height="31"/>
+        <Label Content="Usuario o correo electronico:" HorizontalAlignment="Center" Margin="238,105,238,0" VerticalAlignment="Top" Width="316" FontSize="16"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Center" Margin="238,172,238,0" VerticalAlignment="Top" Width="316" FontSize="16"/>
+        <TextBox x:Name="txtUser" HorizontalAlignment="Center" Height="31" Margin="238,136,238,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Text="Carlos" FontSize="16"/>
+        <Label x:Name="lblWrong" Content="Usuario o contraseña incorrectos" HorizontalAlignment="Left" Margin="278,280,0,0" VerticalAlignment="Top" Background="White" Foreground="Red" FontSize="16"/>
+        <PasswordBox x:Name="txtPass" HorizontalAlignment="Center" Margin="238,203,238,0" VerticalAlignment="Top" Width="316" Password="123456789" FontSize="16" Height="31"/>
+        <Button x:Name="btnLogin" Content="Ingresar" HorizontalAlignment="Left" Margin="342,249,0,0" VerticalAlignment="Top" Width="111" Click="btnLogin_Click" FontSize="16" Background="#FFF2F5FC" Height="31"/>
         <Label Content="UNIVERSIDAD PONTIFICIA BOLIVARIANA&#xA;PARADIGMAS DE PROGRAMACIÓN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="38" Width="252" Foreground="#FF7E8CBB" FontFamily="Calibri" FontSize="11"/>
         <Label Content="Presentado por: Whayner Eduardo Porras Rodriguez" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Foreground="#FFE4E4E4" FontStyle="Italic" FontSize="11"/>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="-52,277,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-15.785" Y="58.088"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj" HorizontalAlignment="Left" Height="108" Margin="-52,277,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/0.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-15.785" Y="58.088"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="48,335,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy" HorizontalAlignment="Left" Height="108" Margin="48,335,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/4.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="149,394,0,-42" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy1" HorizontalAlignment="Left" Height="108" Margin="149,394,0,-42" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/5.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="299,277,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-15.785" Y="58.088"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy2" HorizontalAlignment="Left" Height="108" Margin="299,277,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/2.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-15.785" Y="58.088"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="399,335,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy3" HorizontalAlignment="Left" Height="108" Margin="399,335,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/0.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="500,394,0,-42" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy4" HorizontalAlignment="Left" Height="108" Margin="500,394,0,-42" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/3.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="633,335,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy5" HorizontalAlignment="Left" Height="108" Margin="633,335,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/1.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.183" Y="0.317"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle Fill="#FFF2F5FC" HorizontalAlignment="Left" Height="108" Margin="734,394,-50,-42" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="imgPnj_Copy6" HorizontalAlignment="Left" Height="108" Margin="734,394,-50,-42" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/0.png" OpacityMask="Black" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="15.785" Y="-58.088"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>

@@ -28,14 +28,16 @@ namespace QuizWHAYNER
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (txtUser.Text == "admin" && txtPass.Password == "123")
+            if (txtUser.Text == "Carlos" && txtPass.Password == "123456789")
             {
                 MainWindow w = (MainWindow)Window.GetWindow(this);
                 //w.frameMain.NavigationService.Navigate(new Home());
-                w.frameMain.Content = new Home();
+                txtUser.Text = "";
+                txtPass.Password = "";
                 lblWrong.Visibility = Visibility.Hidden;
+                w.frameMain.Content = w.P2;
             }
-            else if (txtUser.Text == "" || txtPass.Password == "")
+            else if (txtUser.Text.Replace(" ", "") == "" || txtPass.Password.Replace(" ", "") == "")
             {
                 lblWrong.Content = "Por favor, ingrese sus credenciales";
                 lblWrong.Visibility = Visibility.Visible;

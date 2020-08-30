@@ -22,24 +22,24 @@
             <ComboBoxItem Content="Troll"/>
             <ComboBoxItem Content="No Muerto"/>
         </ComboBox>
-
-        <Label Name="lblFuerza" Content="Fuerza" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,265,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblAgilidad" Content="Agilidad" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,301,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblPercepcion" Content="Percepción" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,336,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblDefensa" Content="Defensa" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,376,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
-
-        <Slider Name="sldFuerza" HorizontalAlignment="Left" Margin="93,269,0,0" VerticalAlignment="Top" Width="135" Value="5" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldFuerza_ValueChanged" Height="22"/>
-        <Slider Name="sldAgilidad" HorizontalAlignment="Left" Margin="93,305,0,0" VerticalAlignment="Top" Width="135" Value="5" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldAgilidad_ValueChanged" Height="22"/>
-        <Slider Name="sldPercepcion" HorizontalAlignment="Left" Margin="93,340,0,0" VerticalAlignment="Top" Width="135" Value="5" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldPercepcion_ValueChanged" Height="22"/>
-        <Slider Name="sldDefensa" HorizontalAlignment="Left" Margin="93,376,0,0" VerticalAlignment="Top" Width="135" Value="5" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldDefensa_ValueChanged" Height="22"/>
-        <Label Content="Especie" HorizontalAlignment="Left" Margin="18,147,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
-        <Label Content="Clase" HorizontalAlignment="Left" Margin="146,147,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
         <ComboBox Name="cbxClase" HorizontalAlignment="Left" Margin="146,171,0,0" VerticalAlignment="Top" Width="117" SelectedIndex="0" Height="22" Background="#FFF2F5FC">
             <ComboBoxItem Content="Guerrero"/>
             <ComboBoxItem Content="Arquero"/>
             <ComboBoxItem Content="Mago"/>
             <ComboBoxItem Content="Invocador"/>
         </ComboBox>
+        <Label Name="lblFuerza" Content="0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,265,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblAgilidad" Content="0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,301,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblPercepcion" Content="0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,336,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblDefensa" Content="0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,376,0,0" VerticalAlignment="Top" Width="30" Height="26" Background="#FFF2F5FC"/>
+
+        <Slider Name="sldFuerza" HorizontalAlignment="Left" Margin="93,269,0,0" VerticalAlignment="Top" Width="135" Value="0" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldFuerza_ValueChanged" Height="22"/>
+        <Slider Name="sldAgilidad" HorizontalAlignment="Left" Margin="93,305,0,0" VerticalAlignment="Top" Width="135" Value="0" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldAgilidad_ValueChanged" Height="22"/>
+        <Slider Name="sldPercepcion" HorizontalAlignment="Left" Margin="93,340,0,0" VerticalAlignment="Top" Width="135" Value="0" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldPercepcion_ValueChanged" Height="22"/>
+        <Slider Name="sldDefensa" HorizontalAlignment="Left" Margin="93,376,0,0" VerticalAlignment="Top" Width="135" Value="0" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="sldDefensa_ValueChanged" Height="22"/>
+        <Label Content="Especie" HorizontalAlignment="Left" Margin="18,147,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
+        <Label Content="Clase" HorizontalAlignment="Left" Margin="146,147,0,0" VerticalAlignment="Top" Height="26" Width="117"/>
+
         <Label Content="Atributos" HorizontalAlignment="Left" Margin="19,232,0,0" VerticalAlignment="Top" Width="244" Height="26" Background="#FF5D6B99" Foreground="White" FontSize="14"/>
         <Label Content="Fuerza" HorizontalAlignment="Left" Margin="19,265,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
         <Label Content="Agilidad" HorizontalAlignment="Left" Margin="19,301,0,0" VerticalAlignment="Top" Width="75" Height="26"/>
@@ -63,26 +63,27 @@
                 </LinearGradientBrush>
             </ListBox.BorderBrush>
         </ListBox>
-        <Image Name="imgPnj" HorizontalAlignment="Left" Height="108" Margin="530,136,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/2.png" OpacityMask="Black"/>
+        <Rectangle Fill="#FF55618B" HorizontalAlignment="Left" Height="108" Margin="530,136,0,0" VerticalAlignment="Top" Width="108"/>
+        <Image Name="imgPnj" HorizontalAlignment="Left" Height="108" Margin="530,136,0,0" VerticalAlignment="Top" Width="108" Source="pack://siteoforigin:,,,/Resources/5.png" OpacityMask="Black"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="528,101,0,0" VerticalAlignment="Top" Height="26" Width="62"/>
-        <Label Name="lblValueNombre" Content="Nombre " HorizontalAlignment="Left" Margin="590,101,0,0" VerticalAlignment="Top" Width="183" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblValueNombre" Content="" HorizontalAlignment="Left" Margin="590,101,0,0" VerticalAlignment="Top" Width="183" Height="26" Background="#FFF2F5FC"/>
         <Label Content="Especie" HorizontalAlignment="Left" Margin="646,136,0,0" VerticalAlignment="Top" Height="26" Width="127"/>
-        <Label Name="lblValueEspecie" Content="Nombre de Especie" HorizontalAlignment="Left" Margin="646,162,0,0" VerticalAlignment="Top" Height="26" Width="127" Background="#FFF2F5FC"/>
+        <Label Name="lblValueEspecie" Content="" HorizontalAlignment="Left" Margin="646,162,0,0" VerticalAlignment="Top" Height="26" Width="127" Background="#FFF2F5FC"/>
         <Label Content="Clase" HorizontalAlignment="Left" Margin="646,192,0,0" VerticalAlignment="Top" Height="26" Width="127"/>
-        <Label Name="lblValueClase" Content="Nombre de Clase" HorizontalAlignment="Left" Margin="646,218,0,0" VerticalAlignment="Top" Height="26" Width="127" Background="#FFF2F5FC"/>
+        <Label Name="lblValueClase" Content="" HorizontalAlignment="Left" Margin="646,218,0,0" VerticalAlignment="Top" Height="26" Width="127" Background="#FFF2F5FC"/>
         <Label Content="Atributos" HorizontalAlignment="Left" Margin="529,261,0,0" VerticalAlignment="Top" Width="242" Height="26" Background="#FF5D6B99" Foreground="White" FontSize="14"/>
         <Label Content="Fuerza" HorizontalAlignment="Left" Margin="530,293,0,0" VerticalAlignment="Top" Width="74" Height="26"/>
         <Label Content="Agilidad" HorizontalAlignment="Left" Margin="530,327,0,0" VerticalAlignment="Top" Width="74" Height="26"/>
         <Label Content="Percepción" HorizontalAlignment="Left" Margin="530,360,0,0" VerticalAlignment="Top" Width="74" Height="26"/>
         <Label Content="Defensa" HorizontalAlignment="Left" Margin="530,393,0,0" VerticalAlignment="Top" Width="74" Height="26"/>
 
-        <Label Name="lblValueFuerza" Content="0" HorizontalAlignment="Left" Margin="607,293,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblValueAgilidad" Content="0" HorizontalAlignment="Left" Margin="607,327,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblValuePercepcion" Content="0" HorizontalAlignment="Left" Margin="607,360,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
-        <Label Name="lblValueDefensa" Content="0" HorizontalAlignment="Left" Margin="607,393,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblValueFuerza" Content="" HorizontalAlignment="Left" Margin="607,293,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblValueAgilidad" Content="" HorizontalAlignment="Left" Margin="607,327,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblValuePercepcion" Content="" HorizontalAlignment="Left" Margin="607,360,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
+        <Label Name="lblValueDefensa" Content="" HorizontalAlignment="Left" Margin="607,393,0,0" VerticalAlignment="Top" Width="164" Height="26" Background="#FFF2F5FC"/>
         <Button Name="btnSave" Content="Guardar" HorizontalAlignment="Left" Margin="172,414,0,0" VerticalAlignment="Top" Width="91" Click="btnSave_Click" Height="22" Background="#FFF2F5FC"/>
         <Label Name="lblPnjLimit" Content="0/10" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="453,69,0,0" VerticalAlignment="Top" Height="26" Width="48" Foreground="White"/>
-        <Label Name="lblAlertName" Content="Nombre ya existente" HorizontalAlignment ="Left" Margin="19,412,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red"/>
+        <Label Name="lblAlertName" Content="Nombre ya existente" HorizontalAlignment ="Left" Margin="19,412,0,-12" VerticalAlignment="Top" Background="{x:Null}" Foreground="Red" Height="41" Width="148"/>
         <Rectangle Fill="#FF55618B" HorizontalAlignment="Left" Height="50" Margin="685,0,0,0" VerticalAlignment="Top" Width="107"/>
         <Label Name="lblLogOut" Content="Cerrar Sesión" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="698,11,0,0" VerticalAlignment="Top" Width="80" Foreground="#FF00D1FF" Background="White" Height="29" MouseLeftButtonUp="lblLogOut_MouseLeftButtonUp"/>
 

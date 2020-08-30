@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizWHAYNER"
         mc:Ignorable="d" 
-        Title="Character Creator 2016 - Spanish" Height="490.375" Width="800">
+        Title="Character Creator 2016 - Spanish" Height="490.375" Width="800" ResizeMode="NoResize">
     <Grid HorizontalAlignment="Left" Margin="0,0,0,7" Width="790" Height="460">
         <Frame Name="frameMain" NavigationUIVisibility="Hidden" HorizontalAlignment="Left"/>
 
